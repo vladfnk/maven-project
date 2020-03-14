@@ -1,4 +1,4 @@
-FROM tomcat:8.0
+FROM tomcat
 
 ADD ./webapp/target/*.war /usr/local/tomcat/webapps/
 
